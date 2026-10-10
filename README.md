@@ -14,8 +14,8 @@
 
 | 越狱方案 | 安装包 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v1.0.1/hongguofn_1.0.1_iphoneos-arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v1.0.1/hongguofn.roothide_1.0.1_iphoneos-arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v1.0.2/hongguofn_1.0.2_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v1.0.2/hongguofn_1.0.2_arm64e.deb) |
 
 安装后彻底关闭红果短剧，再重新打开。插件设置入口位于 **我的 → 设置 → 红果净化**，在“清理缓存”上方。
 
@@ -32,13 +32,10 @@
 
 修改导航或启动页后，彻底关闭 App 再重新打开。会员状态是本地显示，实际账号权益以账号为准。本地下载保存在 App 内。
 
-## 1.0.1 更新
+## 1.0.2 更新
 
-- 修正默认启动页和首页频道被后续刷新覆盖的问题。
-- 清理已失效的导航缓存，移除不存在的“分类”选项。
-- 新增红点提醒净化与侧栏游戏中心独立隐藏。
-- 恢复通知权限伪装。
-- 新增倍速滑块、步进器、自动倍速播放和清晰度锁定。
-- 新增自动清屏与暂停时退出清屏子开关。
+- 补充短剧插页广告与缓存广告的请求、插入拦截。
+- 新增播放页顶部集数、倍速按钮、更多菜单、清屏按钮和底部弹幕按钮的独立开关，播放时隐藏、暂停时恢复。
+- 修正滑动换集后自动清屏未及时应用的问题。
 
 维护者：[5hux1n](https://github.com/5hux1n)
