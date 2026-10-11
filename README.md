@@ -14,8 +14,8 @@
 
 | 越狱方案 | 安装包 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v1.0.2/hongguofn_1.0.2_arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v1.0.2/hongguofn_1.0.2_arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v1.0.3/hongguofn_1.0.3_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v1.0.3/hongguofn_1.0.3_arm64e.deb) |
 
 安装后彻底关闭红果短剧，再重新打开。插件设置入口位于 **我的 → 设置 → 红果净化**，在“清理缓存”上方。
 
@@ -32,10 +32,14 @@
 
 修改导航或启动页后，彻底关闭 App 再重新打开。会员状态是本地显示，实际账号权益以账号为准。本地下载保存在 App 内。
 
-## 1.0.2 更新
+## 1.0.3 更新
 
-- 补充短剧插页广告与缓存广告的请求、插入拦截。
-- 新增播放页顶部集数、倍速按钮、更多菜单、清屏按钮和底部弹幕按钮的独立开关，播放时隐藏、暂停时恢复。
-- 修正滑动换集后自动清屏未及时应用的问题。
+- 理清插件长按倍速与普通播放倍速：手动选择原生倍速后不再被插件强制覆盖。
+- 修正长按倍速提示出现浮点长小数的问题，设置列表中的倍速值及时刷新。
+- 在原生长按及播放设置菜单的倍速区域增加长按默认倍速滑块和启动默认倍速锁定开关，与插件设置同步。
+- 调整时长标签布局，紧贴进度条上方显示。
+- 新增全屏播放按钮的独立隐藏开关。
+- 播放页顶部集数隐藏开关同时控制返回箭头。
+- 播放设置面板按已配置的清晰度锁定切换，并在引擎切换完成后刷新选中档位。
 
 维护者：[5hux1n](https://github.com/5hux1n)
