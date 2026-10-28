@@ -14,8 +14,8 @@
 
 | 越狱方案 | 安装包 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.0.5/hongguofn_2.0.5_arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.0.5/hongguofn_2.0.5_arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.0.6/红果净化_2.0.6_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.0.6/红果净化_2.0.6_arm64e.deb) |
 
 安装后彻底关闭红果短剧，再重新打开。在 **我的 → 设置 → 红果净化** 打开插件总开关，再按需开启分项功能。隐藏“我的”后，可双指长按底部导航打开插件设置。
 
@@ -36,11 +36,13 @@
 
 在插件设置中选择需要的功能。自动福利需开启对应任务开关；保存到相册需允许照片权限。原生本地下载保存在 App 内，保存到相册后可在系统“照片”中查看。
 
-## 2.0.5 更新
+## 2.0.6 更新
 
-- 新增关于页 Telegram 频道入口。
-- 修复播放页互动按钮隐藏后右侧留白与错位。
-- 修复视频保存默认为 1080P 报错的问题。
+- 新增禁用双击点赞开关。
+- 新增回到前台保留手动暂停开关，默认关闭。
+- 调整默认清晰度为跟随 App 设置，保留已有选择。
+- 优化与 liquidass 的播放菜单兼容性。
+- 新增对修改 Bundle ID 的多开包的识别支持。
 
 完整版本历史见 [Releases](https://github.com/5hux1n/hongguofn/releases)。
 
