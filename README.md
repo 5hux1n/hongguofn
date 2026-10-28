@@ -14,8 +14,8 @@
 
 | 越狱方案 | 安装包 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.0.6/红果净化_2.0.6_arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.0.6/红果净化_2.0.6_arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.0.6/hongguofn_2.0.6_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.0.6/hongguofn_2.0.6_arm64e.deb) |
 
 安装后彻底关闭红果短剧，再重新打开。在 **我的 → 设置 → 红果净化** 打开插件总开关，再按需开启分项功能。隐藏“我的”后，可双指长按底部导航打开插件设置。
 
