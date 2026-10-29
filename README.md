@@ -14,8 +14,8 @@
 
 | 越狱方案 | 安装包 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.1.0/红果净化_2.1.0_arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.1.0/红果净化_2.1.0_arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.1.0/hongguofn_2.1.0_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.1.0/hongguofn_2.1.0_arm64e.deb) |
 
 插件入口在「我的 → 设置 → 红果净化」或者“我的”页面顶部图标，底部导航栏双指长按也可以唤出插件设置。
 
