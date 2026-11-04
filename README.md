@@ -14,8 +14,8 @@
 
 | 越狱方案 | 安装包 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.0/hongguofn_2.2.0_arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.0/hongguofn_2.2.0_arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.1/红果净化_2.2.1_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.1/红果净化_2.2.1_arm64e.deb) |
 
 插件入口在「我的 → 设置 → 红果净化」或者“我的”页面顶部图标，底部导航栏双指长按也可以唤出插件设置。
 
@@ -32,16 +32,15 @@
 
 在插件设置中选择需要的功能。自动福利需开启对应任务开关；保存到相册需允许照片权限。原生本地下载保存在 App 内，保存到相册后可在系统“照片”中查看。
 
-## 2.2.0 更新
+## 2.2.1 更新
 
-- 新增开启 App 时默认静音功能
-- 新增定时关闭播放功能
-- 恢复播放页更多菜单控制开关
-- 优化短剧去广告
-- 优化去除热启动开屏广告
-- 优化去除悬浮卡片广告
-- 优化去除直播推广广告
-- 优化广告预加载拦截
+- 新增“禁止整剧结束后自动续播”，保留同剧下一集和手动选剧
+- 新增“屏蔽调研问卷”开关
+- 新增“隐藏我的页看剧偏好栏”开关
+- 修复默认倍速偶发不生效的问题
+- 修复超级清屏模式下弹幕被一并隐藏的问题
+- 修复关闭总开关后部分功能仍生效的问题
+- 优化剧标签、热评及我的页快捷入口的隐藏效果，保留顶部消息按钮
 
 完整版本历史见 [Releases](https://github.com/5hux1n/hongguofn/releases)。
 
