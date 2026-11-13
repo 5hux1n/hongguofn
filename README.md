@@ -14,8 +14,8 @@
 
 | 越狱方案 | 安装包 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.2/hongguofn_2.2.2_arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.2/hongguofn_2.2.2_arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.4/hongguofn_2.2.4_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.4/hongguofn_2.2.4_arm64e.deb) |
 
 插件入口在「我的 → 设置 → 红果净化」。双指长按底部导航栏 1 秒也可以打开净化设置。
 
@@ -32,19 +32,12 @@
 
 在插件设置中选择需要的功能。自动福利需开启对应任务开关；保存到相册需允许照片权限。原生本地下载保存在 App 内，保存到相册后可在系统“照片”中查看。
 
-## 2.2.2 更新
+## 2.2.4 更新
 
-1. **新增配置导入与导出、恢复默认配置功能**
-2. **新增隐藏我的页看剧偏好栏**
-3. **新增隐藏播放页红果圈入口**
-4. **新增隐藏剧好物入口**
-5. **新增屏蔽热更新挂件入口**
-6. **优化部分热更新广告位的配置拦截**
-7. **优化激励广告跳过**
-8. **优化隐藏剧标签**
-9. **优化隐藏热评**
-10. **修复返回播放页后状态栏偶尔重新显示的问题**
-11. **移除「我的」页右上角的净化入口**
+- 新增底部导航玻璃效果（iOS 26+）
+- 新增底部导航玻璃参数调节（iOS 26+）
+- 新增仿液态玻璃（iOS 26 以下）
+- 修复已知问题
 
 完整版本历史见 [Releases](https://github.com/5hux1n/hongguofn/releases)。
 
