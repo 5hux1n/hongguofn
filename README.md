@@ -14,10 +14,10 @@
 
 | 安装方式 | 下载 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.4/hongguofn_2.2.4_arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.4/hongguofn_2.2.4_arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.6/hongguofn_2.2.6_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.6/hongguofn_2.2.6_arm64e.deb) |
 
-巨魔或证书签名安装：下载 [插件注入文件](https://github.com/5hux1n/hongguofn/releases/download/v2.2.4/hongguofn_2.2.4.dylib)，将其注入目标 App 后，再通过巨魔或证书签名安装。
+巨魔或证书签名安装：下载 [插件注入文件](https://github.com/5hux1n/hongguofn/releases/download/v2.2.6/hongguofn_2.2.6.dylib)，将其注入目标 App 后，再通过巨魔或证书签名安装。
 
 插件入口在「我的 → 设置 → 红果净化」。双指长按底部导航栏 1 秒也可以打开净化设置。
 
@@ -35,12 +35,21 @@
 
 在插件设置中选择需要的功能。自动福利需开启对应任务开关；保存到相册需允许照片权限。原生本地下载保存在 App 内，保存到相册后可在系统“照片”中查看。
 
-## 2.2.4 更新
+## 2.2.6 更新
 
-- 新增底部导航玻璃效果（iOS 26+）
-- 新增底部导航玻璃参数调节（iOS 26+）
-- 新增仿液态玻璃（iOS 26 以下）
-- 修复已知问题
+- 新增隐藏“我的”页面周末追剧社卡片
+- 新增隐藏播放页看好剧买好物商品入口
+- 新增隐藏首页底栏背景开关
+- 新增自定义底栏文字颜色
+- 修复底栏字号调节后可能不及时生效的问题
+- 优化 iPad 横竖屏切换时的底部布局异常
+- 优化超级清屏进入时的背景闪动处理
+- 优化隐藏收藏按钮
+- 优化会员卡片展示逻辑
+- 修复设置入口卡顿的问题
+- 新增强制显示 iPad 全屏播放按钮
+- 修复底栏隐藏导致的顶栏不显示的问题
+- 修复视频卡半屏的问题
 
 完整版本历史见 [Releases](https://github.com/5hux1n/hongguofn/releases)。
 
