@@ -14,10 +14,10 @@
 
 | 安装方式 | 下载 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.8/红果净化_2.2.8_arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.8/红果净化_2.2.8_arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.8/hongguofn_2.2.8_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.8/hongguofn_2.2.8_arm64e.deb) |
 
-巨魔或证书签名安装：下载 [插件注入文件](https://github.com/5hux1n/hongguofn/releases/download/v2.2.8/红果净化_2.2.8.dylib)，将其注入目标 App 后，再通过巨魔或证书签名安装。
+巨魔或证书签名安装：下载 [插件注入文件](https://github.com/5hux1n/hongguofn/releases/download/v2.2.8/hongguofn_2.2.8.dylib)，将其注入目标 App 后，再通过巨魔或证书签名安装。
 
 插件入口在「我的 → 设置 → 红果净化」。双指长按底部导航栏 1 秒也可以打开净化设置。
 
