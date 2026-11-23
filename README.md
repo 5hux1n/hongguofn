@@ -14,10 +14,10 @@
 
 | 安装方式 | 下载 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.7/hongguofn_2.2.7_arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.7/hongguofn_2.2.7_arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.8/红果净化_2.2.8_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.8/红果净化_2.2.8_arm64e.deb) |
 
-巨魔或证书签名安装：下载 [插件注入文件](https://github.com/5hux1n/hongguofn/releases/download/v2.2.7/hongguofn_2.2.7.dylib)，将其注入目标 App 后，再通过巨魔或证书签名安装。
+巨魔或证书签名安装：下载 [插件注入文件](https://github.com/5hux1n/hongguofn/releases/download/v2.2.8/红果净化_2.2.8.dylib)，将其注入目标 App 后，再通过巨魔或证书签名安装。
 
 插件入口在「我的 → 设置 → 红果净化」。双指长按底部导航栏 1 秒也可以打开净化设置。
 
@@ -35,22 +35,12 @@
 
 在插件设置中选择需要的功能。自动福利需开启对应任务开关；保存到相册需允许照片权限。原生本地下载保存在 App 内，保存到相册后可在系统“照片”中查看。
 
-## 2.2.7 更新
+## 2.2.8 更新
 
-- 新增「显示听视频入口」和「听视频画面铺满」开关
-- 新增禁用短剧灵动岛和活跃卡片
-- 新增显示真实分享数量
-- 新增首页和播放页组件大小、透明度调节，支持批量设置
-- 新增首页横幅高度、图文尺寸和透明度调节
-- 新增评论面板毛玻璃和文字颜色调节
-- 新增「评论区保持视频尺寸」开关
-- 修复评论动图保存后变成静态图的问题
-- 优化液态玻璃参数页的分组和布局
-- 优化推荐流整页问卷拦截
-- 优化信息流小游戏推广拦截
-- 优化 App Store 评分弹窗和好评引导拦截
-- 移除强制显示 iPad 全屏播放按钮
+- 新增「保存评论区动图」独立开关，默认关闭
+- 完善评论图片长按菜单的动图保存入口
+- 新增「屏蔽信息流游戏」独立开关，默认关闭
+- 修复评论列表底部「已显示全部内容」区域未跟随面板透明化的问题
+- 补齐设置分组、保存进度与错误提示的多语言文案
+- 修正繁体中文分组名称显示
 
-完整版本历史见 [Releases](https://github.com/5hux1n/hongguofn/releases)。
-
-维护者：[Junhong](https://mjh.im/)
