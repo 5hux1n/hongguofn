@@ -14,10 +14,10 @@
 
 | 安装方式 | 下载 |
 | --- | --- |
-| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.6/hongguofn_2.2.6_arm64.deb) |
-| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.6/hongguofn_2.2.6_arm64e.deb) |
+| Rootless | [arm64 DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.7/hongguofn_2.2.7_arm64.deb) |
+| RootHide | [arm64e DEB](https://github.com/5hux1n/hongguofn/releases/download/v2.2.7/hongguofn_2.2.7_arm64e.deb) |
 
-巨魔或证书签名安装：下载 [插件注入文件](https://github.com/5hux1n/hongguofn/releases/download/v2.2.6/hongguofn_2.2.6.dylib)，将其注入目标 App 后，再通过巨魔或证书签名安装。
+巨魔或证书签名安装：下载 [插件注入文件](https://github.com/5hux1n/hongguofn/releases/download/v2.2.7/hongguofn_2.2.7.dylib)，将其注入目标 App 后，再通过巨魔或证书签名安装。
 
 插件入口在「我的 → 设置 → 红果净化」。双指长按底部导航栏 1 秒也可以打开净化设置。
 
@@ -35,21 +35,21 @@
 
 在插件设置中选择需要的功能。自动福利需开启对应任务开关；保存到相册需允许照片权限。原生本地下载保存在 App 内，保存到相册后可在系统“照片”中查看。
 
-## 2.2.6 更新
+## 2.2.7 更新
 
-- 新增隐藏“我的”页面周末追剧社卡片
-- 新增隐藏播放页看好剧买好物商品入口
-- 新增隐藏首页底栏背景开关
-- 新增自定义底栏文字颜色
-- 修复底栏字号调节后可能不及时生效的问题
-- 优化 iPad 横竖屏切换时的底部布局异常
-- 优化超级清屏进入时的背景闪动处理
-- 优化隐藏收藏按钮
-- 优化会员卡片展示逻辑
-- 修复设置入口卡顿的问题
-- 新增强制显示 iPad 全屏播放按钮
-- 修复底栏隐藏导致的顶栏不显示的问题
-- 修复视频卡半屏的问题
+- 新增「显示听视频入口」和「听视频画面铺满」开关
+- 新增禁用短剧灵动岛和活跃卡片
+- 新增显示真实分享数量
+- 新增首页和播放页组件大小、透明度调节，支持批量设置
+- 新增首页横幅高度、图文尺寸和透明度调节
+- 新增评论面板毛玻璃和文字颜色调节
+- 新增「评论区保持视频尺寸」开关
+- 修复评论动图保存后变成静态图的问题
+- 优化液态玻璃参数页的分组和布局
+- 优化推荐流整页问卷拦截
+- 优化信息流小游戏推广拦截
+- 优化 App Store 评分弹窗和好评引导拦截
+- 移除强制显示 iPad 全屏播放按钮
 
 完整版本历史见 [Releases](https://github.com/5hux1n/hongguofn/releases)。
 
